@@ -15,6 +15,7 @@
         app:layout_constraintGuide_percent="0.2" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GATO"
@@ -38,7 +39,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
         app:layout_constraintBottom_toTopOf="@id/B1"
-        app:layout_constraintEnd_toStartOf="@id/A2"/>
+        app:layout_constraintEnd_toStartOf="@id/A2"
+        android:layout_margin="3dp"/>
 
 
     <Button
@@ -48,7 +50,8 @@
         app:layout_constraintTop_toBottomOf="@id/A1"
         app:layout_constraintBottom_toTopOf="@id/C1"
         app:layout_constraintEnd_toStartOf="@id/B2"
-        android:id="@+id/B1"/>
+        android:id="@+id/B1"
+        android:layout_margin="3dp"/>
 
     <Button
         android:layout_width="0dp"
@@ -57,7 +60,8 @@
         app:layout_constraintTop_toBottomOf="@id/B1"
         app:layout_constraintBottom_toTopOf="@id/GL1"
         app:layout_constraintEnd_toStartOf="@id/C2"
-        android:id="@+id/C1"/>
+        android:id="@+id/C1"
+        android:layout_margin="3dp"/>
 
     <Button
         android:id="@+id/A2"
@@ -67,6 +71,7 @@
         app:layout_constraintEnd_toStartOf="@id/A3"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
         app:layout_constraintBottom_toTopOf="@id/B2"
+        android:layout_margin="3dp"
         />
     <Button
         android:id="@+id/B2"
@@ -76,6 +81,7 @@
         app:layout_constraintTop_toBottomOf="@id/A2"
         app:layout_constraintBottom_toTopOf="@id/C2"
         app:layout_constraintEnd_toStartOf="@id/B3"
+        android:layout_margin="3dp"
         />
     <Button
         android:id="@+id/C2"
@@ -85,6 +91,7 @@
         app:layout_constraintTop_toBottomOf="@id/B2"
         app:layout_constraintBottom_toBottomOf="@id/GL1"
         app:layout_constraintEnd_toStartOf="@id/C3"
+        android:layout_margin="3dp"
         />
 
     <Button
@@ -95,6 +102,7 @@
         app:layout_constraintTop_toBottomOf="@id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/B3"
+        android:layout_margin="3dp"
         />
     <Button
         android:id="@+id/B3"
@@ -104,6 +112,7 @@
         app:layout_constraintTop_toBottomOf="@id/A3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/C3"
+        android:layout_margin="3dp"
         />
     <Button
         android:id="@+id/C3"
@@ -113,6 +122,17 @@
         app:layout_constraintTop_toBottomOf="@id/B3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@id/GL1"
+        android:layout_margin="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carlos López"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         />
 
 
